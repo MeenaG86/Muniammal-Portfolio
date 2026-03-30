@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--Google cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header section-->
+
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">    
+            
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+       </nav>
+    </header>
+
+    <!--Home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Muniammal</h1>
+            <h3> And I'm a <span class="multiple-text"></span></h3>
+            <p>Creating responsive websites with HTML, CSS, JavaScript & React.</p> 
+    
+
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/MeenaG86"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/meena-subash-55a151222/"><i class="fa-brands fa-linkedin-in"></i></a>            
+          </div>
+          <a href="Resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="./images/profile.png" alt="profile">
+        </div>
+    </section>
+    <!--About section-->
+    <section class="about" id="about">
+        <div class="about-img">
+                <img src="./images/profile.png" alt="profile">
+            </div>
+          <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I am a passionate frontend developer skilled in HTML, CSS, JavaScript, and React.
+             <span id="dots">...</span>
+
+            <span id="more">
+            I enjoy building responsive and user-friendly websites with clean and modern design.
+            I am always learning new technologies and improving my skills to create better web applications.
+            </span>
+            </p>
+
+            <button class="btn">Read more</button>
+        </div>
+    </section>
+    <!--Services section-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I create responsive, user-friendly, and modern websites using HTML, CSS, JavaScript, and React.
+                <span id="dots2">...</span>
+                <span id="more2">
+                I focus on clean design, smooth functionality, and building websites that work well on all screen sizes.
+                </span>
+                </p>
+                <button class="btn">Read more</button>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>Web Design</h3>
+                <p>I design clean, modern, and visually appealing website layouts using HTML and CSS.
+                <span id="dots-design">...</span>
+
+                <span id="more-design">
+                I focus on user-friendly design, proper layout structure, and responsive design to ensure a great experience across all devices.
+                </span>
+                </p>
+                <button class="btn">Read more</button>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Responsive Design</h3>
+                <p>I create fully responsive websites that adapt seamlessly to different screen sizes and devices.
+                <span id="dots-responsive">...</span>
+
+                <span id="more-responsive">
+                I ensure layouts work perfectly on mobile, tablet, and desktop using modern CSS techniques like Flexbox and media queries.
+                </span>
+                </p>
+
+                <button class="btn">Read more</button>
+            </div>
+        </div>
+    </section>
+    <!--Portfolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./images/1.png" alt="portfolio1">
+                <div class="portfolio-layer">
+                    <h4>Udmey Clone</h4>
+                    <p>Built a responsive online course platform UI inspired by Udemy using HTML, CSS, and JavaScript.</p>
+                    <a href="https://meenag86.github.io/Udemy-clone/" class="btn">View Details</a>
+                    <i class="fa-solid fa-link"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/2.png" alt="portfolio2">
+                <div class="portfolio-layer">
+                    <h4>Reestar</h4>
+                    <p>Built a responsive restaurant website UI using HTML, CSS, and JavaScript.</p>
+                    <a href="https://meenag86.github.io/Reestar-CSS/" class="btn">View Details</a>
+                    <i class="fa-solid fa-link"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/3.png" alt="portfolio3">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>Built a responsive portfolio website UI using HTML, CSS, and JavaScript.</p>
+                    <a href="https://meenag86.github.io/group-portfolio-website/" class="btn">View Details</a>
+                    <i class="fa-solid fa-link"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/4.png" alt="portfolio4">
+                <div class="portfolio-layer">
+                    <h4>Greeden</h4>
+                    <p>Built a responsive e-commerce website UI using HTML, Tailwind CSS, and JavaScript.</p>
+                    <a href="https://meenag86.github.io/Greeden-Tailwindcss/" class="btn">View Details</a>
+                    <i class="fa-solid fa-link"></i>
+                </div>
+            </div>
+                <div class="portfolio-box">
+                    <img src="./images/5.png" alt="portfolio3">
+                    <div class="portfolio-layer">
+                        <h4>Dynamic Image Gallery</h4>
+                        <p>Built a responsive image gallery UI using React, HTML, and CSS.</p>
+                        <a href="https://image-gallery-react-iota-virid.vercel.app/" class="btn">View Details</a>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    </div>
+                    <div class="portfolio-box">
+                <img src="./images/6.png" alt="portfolio3">
+                <div class="portfolio-layer">
+                    <h4>Nostra</h4>
+                    <p>Built a responsive website UI using HTML, CSS, and JavaScript.</p>
+                    <a href="https://meenag86.github.io/Ecommerce-Website/" class="btn">View Details</a>
+                    <i class="fa-solid fa-link"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="text" id="subject" placeholder="Subject">
+                <input type="text" id="phone" placeholder="Phone">
+            </div>
+            <div class="input-box">
+                <textarea id="message" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="msg"></p>
+
+    </section>
+    <!--Footer section-->
+    <footer div class="footer">
+        <div class="footer-text">
+        <span>Created By <a href="#">Muniammal</a> | <span class="far fa-copyright"></span> 2026 All rights reserved.</span>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        </footer>
+        <!--Scroll Reveal-->
+        <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+        <!--Typed JS-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <!--JavaScript-->
+        <script src="script.js"></script>
+    </body>
+    </html>
