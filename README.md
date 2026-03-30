@@ -5,7 +5,7 @@ A modern and responsive personal portfolio website built using HTML, CSS, and Ja
 
 🚀 Live Demo
 
-🔗 https://your-portfolio-link.com
+🔗 https://meenag86.github.io/Muniammal-Portfolio/
 
 📌 Features
 ✅ Responsive design (Mobile, Tablet, Desktop)
@@ -15,10 +15,12 @@ A modern and responsive personal portfolio website built using HTML, CSS, and Ja
 📞 Contact form with JavaScript validation
 🧭 Smooth navigation and interactive menu
 📱 Mobile-friendly toggle menu
+
 🛠️ Tech Stack
 HTML5
 CSS3
-JavaScript 
+JavaScript
+
 📂 Project Structure
 portfolio/
 │── index.html
